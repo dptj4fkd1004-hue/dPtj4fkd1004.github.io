@@ -1,9 +1,64 @@
-<html>
-  <head>
-    <title>my home
-    </title>
-  </head>
-  <body>
-    안녕하세요 00홈에 오신 것을 환영합니다!
-  </body>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome App</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      font-family: Arial, sans-serif;
+    }
+
+    .welcome-box {
+      text-align: center;
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      animation: fadeIn 1.5s ease;
+    }
+
+    .welcome-box h1 {
+      color: #333;
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .welcome-box p {
+      color: #666;
+      font-size: 18px;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="welcome-box">
+    <h1>🎉 환영합니다!</h1>
+    <p>앱에 오신 것을 진심으로 환영해요 😊</p>
+  </div>
+
+  <script>
+    console.log("Welcome App Loaded!");
+  </script>
+
+</body>
 </html>
