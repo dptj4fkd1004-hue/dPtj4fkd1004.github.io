@@ -1,1 +1,1 @@
-# dPtj4fkd1004.github-hue.io
+# dptj4fkd1004.github-hue.io
